@@ -23,12 +23,12 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
@@ -66,7 +66,7 @@ const CONFIG = {
 		{
 			id: '3',
 			name: 'Food',
-			icon: 'instacart',
+			icon: 'carrot',
 			link: 'https://www.instacart.com/store/account/orders',
 		},
 		{
@@ -77,22 +77,22 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Netflix',
+			icon: 'film',
+			link: 'https://netflix.com',
 		},
 		{
 			id: '6',
-			name: 'USAA',
-			icon: 'usaa',
-			link: 'https://www.usaa.com/my/logon',
+			name: 'Drive',
+			icon: 'server',
+			link: 'https://drive.google.com',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
+			name: 'Spotify',
 			icon: 'headphones',
 			link: 'https://open.spotify.com',
 		},
@@ -104,7 +104,7 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'discord',
 			icon: 'bot',
 			link: 'https://discord.com/app',
 		},
@@ -114,18 +114,18 @@ const CONFIG = {
 			icon: 'shopping-bag',
 			link: 'https://amazon.com/',
 		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
+		//{
+			//id: '5',
+			//name: 'Hashnode',
+			//icon: 'pen-tool',
+			//link: 'https://hashnode.com/',
+		//},
+		//{
+			//id: '6',
+			//name: 'Figma',
+			//icon: 'figma',
+			//link: 'https://figma.com/',
+		//},
 	],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
